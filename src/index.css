@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family:"Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+.Navbar{
+    z-index: 40;
+}
+.Navbar,footer{
+    background-color: var(--second-color);
+}
+main,.about,.cardho{
+    background-color: var(--main-color);
+}
+.h-screen90{
+    height: 85vh;
+}
+.Home_divider__PNOoB {
+    margin-block: 20px !important;
+    position: relative;
+    text-align: center;
+}
+.Home_divider__PNOoB:before {
+    left: 50px;
+}
+.Home_divider__PNOoB:after, .Home_divider__PNOoB:before {
+    background-color: #fff;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
+.header .Home_divider__PNOoB:after,.header .Home_divider__PNOoB:before{
+    background-color: var(--second-color);
+}
+.cardM .Home_divider__PNOoB:after,.cardM .Home_divider__PNOoB:before{
+    background-color: var(--second-color);
+}
+.contact .Home_divider__PNOoB:after,.cardM .Home_divider__PNOoB:before{
+    background-color: var(--second-color);
+    height: 5px;
+}
+.Home_divider__PNOoB:after {
+    right: 50px;
+}
+.Home_divider__PNOoB:after, .Home_divider__PNOoB:before {
+    background-color: #fff ;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
+.header .Home_divider__PNOoB:after,.header .Home_divider__PNOoB:before {
+    background-color: var(--second-color);
+}
+.cardM .Home_divider__PNOoB:after,.cardM .Home_divider__PNOoB:before {
+    background-color: var(--second-color);
+}
+.contact .Home_divider__PNOoB:after,.contact .Home_divider__PNOoB:before {
+    background-color: var(--second-color);
+    height: 5px;
+}
+.header h2,.header i,.cardM h2,.cardM i,.contact h2,.contact i{
+    color: var(--second-color);
+}
+.cir{
+    width: 40px;
+    height: 40px;
+}
+
+.cardho{
+    opacity: 0;
+    transition: all .7s;
+}
+
+.card:hover .cardho{
+    opacity: .8;
+}
+
+.full{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+input,textarea{
+    border: 0;
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: var(--main-color);
+}
+
+.nav-item .active{
+    background-color: var(--main-color);
+}
