@@ -78,7 +78,7 @@ export default function NavbarSimple() {
 
 
     return (
-        <Navbar className={`${paddingRemoved ?'py-2' : 'py-6'} transition-all duration-500 ease-in-out Navbar fixed top-0 left-0 right-0 rounded-none border-none pe-10 px-3 sm:px-28 `} >
+        <Navbar className={`${paddingRemoved ?'py-2' : 'py-8'} transition-all duration-500 ease-in-out Navbar fixed top-0 left-0 right-0 rounded-none border-none pe-10 px-3 sm:px-28 `} >
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Link className="text-4xl font-bold" to=''>Start Framework</Link>
                 <div className="hidden lg:block">
