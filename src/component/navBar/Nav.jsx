@@ -37,7 +37,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/react/ٍcontact" className="flex items-center px-4 py-2 rounded-xl">
+                <NavLink to="/react/contact" className="flex items-center px-4 py-2 rounded-xl">
                     Contact
                 </NavLink>
             </Typography>
