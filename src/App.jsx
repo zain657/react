@@ -9,7 +9,7 @@ import Contact from './component/contact/Contact'
 
 function App() {
   let router=createBrowserRouter([
-    {path:'', element:<Layout/>,children:
+    {path:'/react/', element:<Layout/>,children:
       [
         {index:true,element:<Home/>},
         {path:'about',element:<About/>},

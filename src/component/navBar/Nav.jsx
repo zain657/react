@@ -1,80 +1,3 @@
-// import React from 'react';
-// import { Link, NavLink } from 'react-router-dom';
-
-// export default function Nav() {
-//     return (
-//         <>
-//             <nav className='fixed top-0 left-0 right-0'>
-//                 <div className="container mx-auto py-7 px-20">
-//                     <div className="flex  justify-between">
-//                         <div className="f">
-//                             <h1 className='text-4xl font-extrabold text-white'><Link to=''>Start Framework</Link></h1>
-//                         </div>
-//                         <div className="s flex items-center">
-//                             <ul className="navbar-nav  mb-lg-0 hidden lg:block">
-//                                 <li className="nav-item me-3 ">
-//                                     <NavLink 
-//                                         to="/about" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mt-3 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         About
-//                                     </NavLink>
-
-//                                     <NavLink 
-//                                         to="/portfolio" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mx-4 mt-2 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         portfolio
-//                                     </NavLink>
-
-//                                     <NavLink 
-//                                         to="/contact" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mt-3 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         contact
-//                                     </NavLink>
-//                                 </li>
-//                             </ul>
-//                             <div className="bar lg:hidden">
-//                                 <i class="fa-solid fa-bars text-2xl p-1 px-3 border-black border-2 rounded-lg"></i>
-//                                 <ul className="navbar-nav  mb-lg-0 w-screen">
-//                                 <li className="nav-item me-3 flex flex-col items-center justify-center bg-black">
-//                                     <NavLink 
-//                                         to="/about" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mt-3 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         About
-//                                     </NavLink>
-
-//                                     <NavLink 
-//                                         to="/portfolio" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mx-4 mt-2 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         portfolio
-//                                     </NavLink>
-
-//                                     <NavLink 
-//                                         to="/contact" 
-//                                         className="nav-link ss p-2 px-4 rounded-xl text-white text-uppercase fw-bold mt-3 mt-md-0  font-semibold text-lg"
-//                                     >
-//                                         contact
-//                                     </NavLink>
-//                                 </li>
-//                             </ul>
-//                                 </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </nav>
-//         </>
-//     );
-// }
-
-
-
-
-// Nav.jsx
-
 import React, { useEffect, useState } from "react";
 import {
     Navbar,
@@ -94,7 +17,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/about" className="flex items-center  px-4 py-2 rounded-xl">
+                <NavLink to="/react/about" className="flex items-center  px-4 py-2 rounded-xl">
                     About
                 </NavLink>
             </Typography>
@@ -104,7 +27,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/portfolio" className="flex items-center  px-4 py-2 rounded-xl">
+                <NavLink to="/react/portfolio" className="flex items-center  px-4 py-2 rounded-xl">
                     Portfolio
                 </NavLink>
             </Typography>
@@ -114,7 +37,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <NavLink to="/contact" className="flex items-center px-4 py-2 rounded-xl">
+                <NavLink to="/react/ٍcontact" className="flex items-center px-4 py-2 rounded-xl">
                     Contact
                 </NavLink>
             </Typography>
